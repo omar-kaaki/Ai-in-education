@@ -1,0 +1,21 @@
+﻿TEST_ME
+Pre-requisites
+1. Install all dependencies listed in the requirements.txt file.
+2. Ensure the data directory contains valid datasets for training and evaluation.
+3. Set up the .env file with the required environment variables.
+Testing the Application
+Test 1: Run the Main Application
+* Run the application script. Ensure the application starts and allows interaction as intended.
+Test 2: Validate Docker Setup
+* Build and run the application in a Docker container. Verify the container builds successfully and the application runs as expected.
+Test 3: Model Training and Analysis
+* Execute the EDA_ModelCreation.py script to train the model. Verify that insights are generated and the model is saved in the models directory.
+Test 4: Check Model Directory
+* Confirm the models directory contains the trained model files after running the training script.
+Test 5: Dependency Installation
+* Install the dependencies from requirements.txt. Ensure all dependencies are installed without errors.
+Troubleshooting
+* Verify that Python 3.8 or higher is installed.
+* Check that the .env file contains correct configuration values.
+* Ensure Docker and Docker Compose are properly installed and configured.
+* Validate that the data directory contains the required datasets in the correct format.
