@@ -8,3 +8,10 @@ keras==2.12.0
 nltk==3.7
 spacy==3.4.1
 jupyter==1.0.0
+streamlit
+joblib
+requests
+xlsxwriter
+datasets
+PyPDF2
+docx
